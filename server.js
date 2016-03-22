@@ -7,7 +7,9 @@ var express = require('express'),
     request = require('request'),
     session = require('express-session'),
     csrf = require('csurf'),
-    override = require('method-override')
+    override = require('method-override'),
+    $ = require('jquery'),
+    _ = require('underscore')
 
 function startServer() {
 
@@ -64,6 +66,7 @@ function startServer() {
         console.log('Express server listening on port ' + app.get('port'))
     })
 
+    
 }
 
 module.exports.startServer = startServer
