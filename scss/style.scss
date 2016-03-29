@@ -99,3 +99,74 @@ img {
 /**
  * YOUR CODE HERE
  */
+
+#title {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    width: 100%;
+}
+
+.pkmn1, .pkmn2, .pkmn3 {
+    text-align: center;
+}
+
+
+#pkmn1-container, #pkmn2-container, #pkmn3-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#pkmn1-container, #pkmn2-container {
+    margin-right: 2.5%;
+}
+
+#team {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    flex-wrap: wrap;
+}
+
+.pokemon-choice-wrapper, .pokemon-team-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.pokemon-sprite, .pokemon-name, .btn {
+    text-align: center;
+}
+
+.btn {
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
